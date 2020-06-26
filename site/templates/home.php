@@ -36,7 +36,5 @@
 		    <img src="<?php echo $page->image->url;?>" width="30" height="30" alt="" loading="lazy">
 		  </a>
 		</nav>
-
-	
 	<?= include("./include/bodyend.inc");?>
 </html> 
