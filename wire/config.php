@@ -54,7 +54,7 @@ if(!defined("PROCESSWIRE")) die();
  * @var bool
  *
  */
-$config->debug = false;
+$config->debug = true;
 
 /**
  * Enable debug mode if condition is met
@@ -192,7 +192,7 @@ $config->noHTTPS = false;
  * @var string 
  * 
  */
-$config->timezone = 'America/New_York'; 
+$config->timezone = 'Vienna/Europe'; 
 
 /**
  * System date format
@@ -204,7 +204,7 @@ $config->timezone = 'America/New_York';
  * @var string
  *
  */
-$config->dateFormat = 'Y-m-d H:i:s';
+$config->dateFormat = 'd.m.Y H:i:s';
 
 
 
@@ -1373,7 +1373,7 @@ $config->defaultAdminTheme = 'AdminThemeDefault';
  * @var string
  *
  */
-$config->adminEmail = '';
+$config->adminEmail = 'albert.polletta@gmail.com';
 
 /**
  * Fatal error HTML
