@@ -8,7 +8,7 @@
 	<body>
 		<h1><?php echo $page->title; ?></h1>
 		<?php if($page->editable()) echo "<p><a href='$page->editURL'>Edit</a></p>"; ?>
-		<img src="<?php echo $page->image->url; ?>">
+		<img src="<?php echo $page->image->url; ?>" width="100%" alt="Logo BISS">
 	
 	</body>
 </html>
