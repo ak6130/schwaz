@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- FAVICON BLOCK START-->
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -22,11 +23,14 @@
 		<meta name="theme-color" content="#ffffff">
 		<!-- FAVICON BLOCK END-->
 		<title><?php echo $page->title; ?></title>
+		<!-- CSS BLOCK START-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/main.css" />
+		<!-- CSS BLOCK END-->
 	</head>
 	<body>
 		<?php if($page->editable()) echo "<p><a href='$page->editURL'>Edit</a></p>"; ?>
 		<img src="<?php echo $page->image->url; ?>" width="100%" height="100%" alt="Logo BISS" >
 	
-	</body>
+	<?= include("./include/bodyend.inc");?>
 </html> 
