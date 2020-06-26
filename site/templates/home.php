@@ -30,6 +30,12 @@
 	</head>
 	<body>
 		<?php if($page->editable()) echo "<p><a href='$page->editURL'>Edit</a></p>"; ?>
+		<!-- Just an image -->
+		<nav class="navbar navbar-light bg-light">
+		  <a class="navbar-brand" href="#">
+		    <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="" loading="lazy">
+		  </a>
+		</nav>
 		<img src="<?php echo $page->image->url; ?>" width="100%" height="100%" alt="Logo BISS" >
 	
 	<?= include("./include/bodyend.inc");?>
