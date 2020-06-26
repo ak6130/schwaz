@@ -26,7 +26,7 @@
 	</head>
 	<body>
 		<?php if($page->editable()) echo "<p><a href='$page->editURL'>Edit</a></p>"; ?>
-		<img src="<?php echo $page->image->url; ?>" width="100%" alt="Logo BISS">
+		<img src="<?php echo $page->image->url; ?>" width="100%" height="100%" alt="Logo BISS" >
 	
 	</body>
-</html>
+</html> 
