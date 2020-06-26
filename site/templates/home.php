@@ -33,7 +33,7 @@
 		<!-- Just an image -->
 		<nav class="navbar navbar-light bg-light">
 		  <a class="navbar-brand" href="#">
-		    <img src="<?php echo $page->image->url;?>" width="30" height="30" alt="" loading="lazy">
+		    <img src="<?php echo $page->image->url;?>" width="40" height="40" alt="" loading="lazy">
 		  </a>
 		</nav>
 	<?php include("./include/bodyend.inc"); ?>
